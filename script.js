@@ -16,7 +16,7 @@ let output =document.querySelector('.answer');
 button.onclick = function () {    
     // console.log(inpuIn.value);
     // let a =inpuIn.value;
-    let a = inpuIn.value;
+    let a = inputIn.value;
     console.log(a);
     p.innerHTML = a;
     inputIn.value = '';
