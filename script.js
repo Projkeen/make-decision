@@ -8,7 +8,7 @@ console.log(random);
 
 // p.textContent = input.value;
 
-let inpuIn = document.querySelector('.input-in');
+let inputIn = document.querySelector('.input-in');
 let button = document.querySelector('button');
 let p = document.querySelector('.out');
 let output =document.querySelector('.answer');
@@ -19,7 +19,7 @@ button.onclick = function () {
     let a = inpuIn.value;
     console.log(a);
     p.innerHTML = a;
-    inpuIn.value = '';
+    inputIn.value = '';
     let b = a.length;
     console.log(b);   
     
