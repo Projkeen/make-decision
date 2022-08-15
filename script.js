@@ -23,14 +23,14 @@ button.onclick = function () {
     let b = a.length;
     console.log(b);   
     
-    if ((b % 2==0) & (random % 2==0)){
-        console.log(output.innerHTML="yes");
+    if ((b % 2 == 0) & (random % 2 == 0)){
+        console.log(output.innerHTML = "yes");
     }
-    else if ((b % 2!=0) & (random % 2!=0)) {
-        console.log(output.innerHTML="yes");
+    else if ((b % 2 != 0) & (random % 2 != 0)) {
+        console.log(output.innerHTML= "yes");
     }
     else 
-        console.log(output.innerHTML="no");
+        console.log(output.innerHTML= "no");
 }
 
 
