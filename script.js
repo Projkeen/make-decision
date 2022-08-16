@@ -15,7 +15,7 @@ let output =document.querySelector('.answer');
 
 button.onclick = function () {    
     // console.log(inpuIn.value);
-    // let a =inpuIn.value;
+    // let a =inputIn.value;
     let a = inputIn.value;
     console.log(a);
     p.innerHTML = a;
@@ -23,7 +23,7 @@ button.onclick = function () {
     let b = a.length;
     console.log(b);   
     
-    if ((b % 2 == 0) & (random % 2 == 0)){
+    if ((b % 2 == 0) & (random % 2 == 0)) {
         console.log(output.innerHTML = "yes");
     }
     else if ((b % 2 != 0) & (random % 2 != 0)) {
