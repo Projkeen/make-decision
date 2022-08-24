@@ -14,7 +14,7 @@ let p = document.querySelector('.out');
 let output =document.querySelector('.answer');
 
 button.onclick = function () {    
-    // console.log(inpuIn.value);
+    // console.log(inputIn.value);
     // let a =inputIn.value;
     let a = inputIn.value;
     console.log(a);
