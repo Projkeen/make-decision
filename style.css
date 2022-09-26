@@ -1,0 +1,21 @@
+.hline {
+    display: flex;
+    justify-content: center;
+    margin:auto;
+}
+
+.container {
+    display: flex;
+    margin: 50px 20px 0 20px;
+    justify-content: center;
+}
+
+.input {
+    display: flex;
+    justify-content: center;
+}
+
+.output{
+    display: flex;
+    justify-content: center;
+}
